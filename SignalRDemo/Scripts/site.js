@@ -4,8 +4,6 @@
 
 function AppViewModel() {
     self = this;
-    self.firstName = ko.observable("Russell");
-    self.lastName = ko.observable("Thompson");
     self.counter = ko.observable("0");
 
     self.update = function (hitCount) {
